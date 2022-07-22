@@ -9,12 +9,12 @@ namespace UsernameApp.service
     {
         public Showservice()
         {
-
         }
 
         public string DisplaySalutation(Namecollectormodel model)
         {
             string Display = $"Hi {model.Username}";
+            Console.WriteLine("loggin this");
             return Display;
         }
 
